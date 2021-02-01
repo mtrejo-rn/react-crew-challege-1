@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href='./styles.css' rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <main>
+        <div id="current-category">
+            <a class="category-label">HOME</a>
+            <span class="category-separator">></span>
+            <a class="category-label">KITCHEN</a>
+            <span class="category-separator">></span>
+            <a class="category-label">TOOLS</a>
+        </div>
+        <section id="product-description">
+            <div class="product-container" id='product-image'>
+                <img src="./src/images/knife-pp.png" id="img-principal-product" class="rounded"
+                    alt='principal product' />
+            </div>
+            <div class="product-container" id='product-detail'>
+                <h1 class="product-title" >Swiss Made Vegetable Cutting Knife</h1>
+                <span class="light-text">By <span class="purple-text">KC COMPANY</span></span>
+                <div id="pricing">
+
+                </div>
+                <div id="description" class="light-text">
+                    Capable of mincing, peeling & cutting blablalblabla knives are for both professional and amateur cooks.
+                </div>
+                <form class="row">
+                    <div id='quantity-container' class="bordered">
+                        <label class="light-text" for="quantity-select">Qty</label>
+                        <select name="quantity-select" id="quantity-select" class="light-text">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                    </div>
+                    <button id='btn-cart'>Add to Cart</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

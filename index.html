@@ -25,11 +25,27 @@
             <span class="category-separator">></span>
             <a class="category-label">TOOLS</a>
         </div>
-        <section id="product-description">
-            <div class="product-container" id='product-image'>
-                <img src="./src/images/knife-pp.png" id="img-principal-product" class="rounded" alt='principal product' />
-            </div>
-            <div class="product-container" id='product-detail'>
+        <section id="main-container">
+            <section id="product-images">
+                <div class="product-container">
+                    <img src="./src/images/knife-pp.png" id="img-principal-product" class="rounded" alt='principal product' />
+                </div>
+                <section id="product-gallery">
+                    <div class="product-img-container">
+                        <img src="./src/images/knife-1.png" class="rounded img-product" alt='principal product' />
+                        <div class="img-product hidden-layer"></div>
+                    </div>
+                    <div class="product-img-container">
+                        <img src="./src/images/knife-pp.png" class="rounded img-product" alt='principal product' />
+                        <div class="img-product hidden-layer"></div>
+                    </div>
+                    <div class="product-img-container">
+                        <img src="./src/images/knife-2.png" class="rounded img-product" alt='principal product' />
+                        <div class="img-product hidden-layer"></div>
+                    </div>
+                </section>
+            </section>
+            <section id='product-detail'>
                 <h1 class="product-title">Swiss Made Vegetable Cutting Knife</h1>
                 <span class="light-text">By <span class="purple-text">KC COMPANY</span></span>
                 <div id="pricing">
@@ -50,13 +66,14 @@
                     <div id='quantity-container' class="bordered">
                         <label class="light-text" for="quantity-select">Qty</label>
                         <select name="quantity-select" id="quantity-select" class="light-text">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                          </select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
                     </div>
                     <button id='btn-cart'>Add to Cart</button>
                 </form>
+            </section>
             </div>
         </section>
     </main>
